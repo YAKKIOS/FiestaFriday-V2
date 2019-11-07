@@ -1,5 +1,5 @@
 body {
-  background-color: #FFEDD7;
+  background-color: #F6ECE0;
   padding: 0px;
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
@@ -414,6 +414,7 @@ font-size: 15px;
   max-width: 570px;
   margin-left: auto;
   margin-right: auto;
+  line-height: 24px;
 }
 
 .feature-inner-block-right a {
