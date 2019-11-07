@@ -334,11 +334,11 @@ float: right;
 .feature-inner-block-alt {
   max-width: 1170px;
   display: inline-block;
-  margin-right: 20%;
+  margin-right: 10%;
 }
 
 .feature-inner-block-left-alt {
-width: 30%;
+width: 50%;
 float: left;
 display: inline-block;
 padding-right: 10%;
@@ -355,7 +355,7 @@ font-weight: normal;
 }
 
 .feature-inner-block-right-alt {
-width: 60%;
+width: 30%;
 text-align: Left;
 display: inline-block;
 text-transform: uppercase;
