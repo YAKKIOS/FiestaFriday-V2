@@ -111,7 +111,7 @@ html {
 .content-title h1 {
   font-family: 'OPTICaslon', serif;
   padding: auto;
-  font-size: 98px;
+  font-size: 88px;
   margin: 0px;
   overflow: hidden;
   line-height: 1.2;
@@ -140,37 +140,6 @@ html {
   content: "\27F6  ";
 }
 
-.btn {
-  font-size: 16px;
-  font-family: 'Inter', sans-serif;
-  display: inline-block;
-  color: #353535;
-  text-decoration: none;
-  line-height: 26px;
-  letter-spacing: 0.5px;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
-.content-subtitle h2::before {
-  content: "\27F6  ";
-}
-
-.btn::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #000;
-  transition: width .6s;
-}
-
-.btn:hover::after {
-  width: 0%;
-  transition: width .6s;
-}
-
-
 
 .cta {
   float: right;
@@ -188,7 +157,7 @@ html {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-color: #FF4E4E;;
+  background-color: #FFAC55;;
   border-style: none;
   transform: rotate(-10deg);
   transition: all .2s ease-in-out;
@@ -218,7 +187,7 @@ html {
   padding: 0px;
   margin: 0px;
   font-weight: bolder;
-  color: #FF4E4E;
+  color: #FFAC55;
   overflow: hidden;
   line-height: 1.2;
   margin-bottom: 0px;
@@ -257,6 +226,7 @@ html {
   display: inline-block;
   margin-left: 10%;
   margin-right: 10%;
+  opacity: 0;
 }
 
 .feature-inner-block-left {
@@ -290,6 +260,7 @@ float: right;
   text-decoration: none;
   list-style: none;
   padding-bottom: 30px;
+  font-weight: normal;
 }
 
 .feature-inner-block-right a {
@@ -301,6 +272,22 @@ float: right;
   max-width: 100%;
 }
 
+.feature-inner-block-left h3 {
+  padding: 0px 0px 30px 0px;
+  margin: 0px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.feature-inner-block-left li {
+  padding: 0px 0px 10px 0px;
+  list-style: none;
+}
+
+.feature-description {
+  padding-top: 30px;
+  margin: 0px;
+}
 
 /*btn*/
 .feature-btn {
@@ -335,13 +322,14 @@ float: right;
   max-width: 1170px;
   display: inline-block;
   margin-right: 10%;
+  margin-left: 10%;
 }
 
 .feature-inner-block-left-alt {
-width: 50%;
+width: 30%;
 float: left;
 display: inline-block;
-padding-right: 10%;
+padding-right: 20%;
 font-weight: normal;
 }
 
@@ -352,14 +340,19 @@ font-weight: normal;
   font-size: 34px;
   font-weight: normal;
 
+
+}
+
+.alt-paragraph {
+  font-weight: normal;
+  line-height: 24px;
 }
 
 .feature-inner-block-right-alt {
-width: 30%;
+width: 40%;
 text-align: Left;
 display: inline-block;
-text-transform: uppercase;
-font-weight: bolder;
+font-weight: normal;
 font-size: 15px;
 }
 
@@ -367,6 +360,7 @@ font-size: 15px;
   text-decoration: none;
   list-style: none;
   padding-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .feature-inner-block-right a {
