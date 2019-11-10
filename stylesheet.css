@@ -309,6 +309,26 @@ float: right;
   color: white;
 }
 
+/*btn*/
+.secondary-btn {
+  background-color:transparent;
+  border-radius:28px;
+  border:2px solid #353535;
+  display:inline-block;
+  cursor:pointer;
+  color: #353535;
+  font-size:15px;
+  padding:16px 40px;
+  text-decoration:none;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.secondary-btn:hover {
+  background-color: #353535;
+  color: white;
+}
+
         
 /*MAIN BLOCKS ALT*/
 .feature-block-alt {
@@ -356,12 +376,18 @@ font-weight: normal;
 font-size: 15px;
 }
 
+.feature-inner-block-right-alt li {
+  list-style: none;
+}
+
 .feature-inner-block-right li {
   text-decoration: none;
   list-style: none;
   padding-bottom: 30px;
   text-transform: uppercase;
 }
+
+
 
 .feature-inner-block-right a {
   text-decoration: none;
