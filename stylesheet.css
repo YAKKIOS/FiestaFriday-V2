@@ -525,6 +525,21 @@ footer {
     width: 100%;
   }
 
+  .feature-inner-block-left-alt {
+    width: 100%;
+    margin-bottom: 100px;
+    padding-right: 0px;
+  }
+
+  .feature-inner-image {
+    width: 100%;
+  }
+
+  .feature-inner-block-right-alt {
+    width: 100%;
+  }
+
+
 }
 
 @media only screen and (max-width: 768px) {
