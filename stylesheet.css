@@ -74,6 +74,19 @@ html {
   scroll-behavior: smooth;
 }
 
+.nav {
+  display: inline;
+}
+
+.link {
+  float: left;
+  margin-top: 40px;
+  margin-left: 5%;
+  text-decoration: none;
+  color: black;
+  font-family: inter;
+}
+
 .logo img {
   max-width: 150px;
   padding-top: 40px;
@@ -352,6 +365,7 @@ float: right;
 
 .feature-inner-block-left-alt {
 width: 30%;
+max-width: 30%;
 float: left;
 display: inline-block;
 padding-right: 20%;
@@ -375,7 +389,8 @@ font-weight: normal;
 
 .feature-inner-block-right-alt {
 width: 40%;
-text-align: Left;
+max-width: 40%;
+text-align: left;
 display: inline-block;
 font-weight: normal;
 font-size: 15px;
@@ -508,7 +523,21 @@ footer {
 
 
 
-@media only screen and (min-width: 1270px) {
+@media only screen and (min-width: 1170px) {
+
+  .feature-inner-block-alt{
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+
+  .feature-inner-block {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+
+
 
 
 }
@@ -544,6 +573,8 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
+.content-title h1 {
+  font-size: 48px;
 }
 
 
