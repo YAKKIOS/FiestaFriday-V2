@@ -432,6 +432,7 @@ font-weight: normal;
 .alt-paragraph {
   font-weight: normal;
   line-height: 26px;
+  margin: 0px;
 }
 
 .feature-inner-block-right-alt {
