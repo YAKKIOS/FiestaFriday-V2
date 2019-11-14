@@ -74,28 +74,73 @@ html {
   scroll-behavior: smooth;
 }
 
+
+/*NEXT STEPS:
+
+.topnav {
+  position: relative;
+}
+
+.topnav a {
+  float: left;
+  color: #313131;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.left-link {
+  margin-left: 5%;
+  margin-top: 35px;
+}
+
+.topnav a:hover {
+}
+
+.topnav a.logo {
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  margin-top: 50px;
+  max-width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .nav {
   display: inline;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 100%;
 }
 
 .link {
   float: left;
   margin-top: 40px;
-  margin-left: 5%;
+  margin-left: %;
   text-decoration: none;
   color: black;
   font-family: inter;
-}
+}*/
+
+
+
+
 
 .logo img {
-  max-width: 150px;
-  padding-top: 40px;
-  animation-delay: 500ms;
-  animation: fadein 1s ease-in-out;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  align-content: center;
+
+    max-width: 150px;
+    padding-top: 40px;
+    animation-delay: 500ms;
+    animation: fadein 1s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-content: center;
 }
 
 .page-content {
@@ -114,6 +159,8 @@ html {
 .page-content h2 {
   font-size: 16px;
   margin-top: 40px;
+      animation-delay: 500ms;
+    animation: fadein 1s ease-in-out;
 }
 
 .container {
@@ -523,7 +570,7 @@ footer {
 
 
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1270px) {
 
   .feature-inner-block-alt{
     margin-right: auto;
@@ -537,6 +584,15 @@ footer {
     float: none;
   }
 
+.feature-inner-block-container {
+  margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+  .centre-inner-block {
+    margin: 0px;
+  }
 
 
 
@@ -558,23 +614,28 @@ footer {
     width: 100%;
     margin-bottom: 100px;
     padding-right: 0px;
+    max-width: 100%;
   }
 
   .feature-inner-image {
     width: 100%;
+    max-width: 100%;
   }
 
   .feature-inner-block-right-alt {
     width: 100%;
+    max-width: 100%;
   }
 
 
 }
 
+
+
 @media only screen and (max-width: 768px) {
 
 .content-title h1 {
-  font-size: 48px;
+  font-size: 58px;
 }
 
 
