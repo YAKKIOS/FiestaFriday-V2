@@ -299,7 +299,6 @@ font-weight: normal;
   margin: 0px;
   font-size: 34px;
   font-weight: normal;
-
 }
 
 .feature-inner-block-right {
@@ -339,6 +338,7 @@ float: right;
 .feature-inner-block-left li {
   padding: 0px 0px 10px 0px;
   list-style: none;
+  text-transform: uppercase;
 }
 
 .feature-description {
